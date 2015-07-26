@@ -9,7 +9,7 @@ struct person_st
 	int id;
 	char name[NAMESIZE];
 	int age;
-}
+};
 
 void print_s(void *data)
 {
@@ -19,7 +19,7 @@ void print_s(void *data)
 
 int main()
 {
-	LLITS *handle;
+	LLIST *handle;
 	int i;
 	struct person_st tmp;
 	
